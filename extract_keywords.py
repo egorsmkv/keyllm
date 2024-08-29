@@ -30,7 +30,7 @@ llm = OpenAI(
     prompt=prompt_chat,
     exponential_backoff=True,
     # model="gpt-4o-mini",
-    model="gpt-4o",
+    model="gpt-4o-2024-08-06",
     generator_kwargs={"max_tokens": 128},
 )
 
